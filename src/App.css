@@ -1,0 +1,12 @@
+#root {
+    margin: 0px;
+    padding: 0px;
+    max-height: 100vh;
+}
+
+body {
+    margin: 0px;
+    padding: .3rem;
+    box-sizing: border-box;
+    max-height: 100vh;
+}
