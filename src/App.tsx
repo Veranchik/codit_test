@@ -12,8 +12,6 @@ import { red } from '@mui/material/colors';
 
 createServer({
     routes() {
-
-        this.urlPrefix = 'http://localhost:5173';
         this.get("/api/tasks/1", () => (
             {
                 id: "1",
@@ -102,7 +100,7 @@ function App() {
             <div className={styles.page}>
 
                 <header className={styles.header}>
-                    <img src="/code.png" alt="" />
+                    <img src="./code.png" alt="" />
                     <FormControl
                         size="small"
                         sx={{
@@ -293,7 +291,7 @@ function App() {
                 </main>
 
                 <footer className={styles.footer}>
-                    <img src="../../public/code.png" alt="" />
+                    <img src="./code.png" alt="" />
                 </footer>
 
             </div>
